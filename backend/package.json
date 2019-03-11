@@ -1,0 +1,31 @@
+{
+  "name": "e-guide",
+  "version": "1.0.0",
+  "description": "An app for enthusiastic students and teachers",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yashvardhan-Kukreja/E-Guide-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yashvardhan-Kukreja/E-Guide-API/issues"
+  },
+  "homepage": "https://github.com/Yashvardhan-Kukreja/E-Guide-API#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.2",
+    "express": "^4.16.3",
+    "helmet": "^3.12.0",
+    "jsonwebtoken": "^8.2.1",
+    "mongoose": "^5.0.14",
+    "morgan": "^1.9.0"
+  }
+}
